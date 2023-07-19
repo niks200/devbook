@@ -27,6 +27,9 @@ const Navbar = ({ auth: { isAuthenticated, loading }, logout }) => {
       <li>
         <Link to='/posts'>Posts</Link>
       </li>
+      <li>
+        <Link to='/companies'>Companies</Link>
+      </li>
 
       <li>
         <Link to='/dashboard'>

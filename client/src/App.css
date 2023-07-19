@@ -674,3 +674,10 @@ img {
   right: 2rem;
   display: inline-block;
 }
+.row {
+  display: flex;
+  column-gap: 20px;
+}
+.row div {
+  flex: auto;
+}

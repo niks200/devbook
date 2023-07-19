@@ -18,7 +18,7 @@ const Posts = () => {
   }
   return (
     <div>
-      <h2 className="my-2">Posts</h2>
+      {/* <h2 className="my-2">Posts</h2> */}
       <table className="table w-100">
         <thead>
           <tr>
@@ -36,7 +36,7 @@ const Posts = () => {
           {
             posts?.map((post)=>(
                 <tr>
-                    <td><img src={post.avatar} className="image-avatar" alt="profile-image" /></td>
+                    <td><image src={post.avatar} className="image-avatar" alt="profile-image" /></td>
 
                     <td>{post.name}</td>
                     <td>{post.text}</td>
